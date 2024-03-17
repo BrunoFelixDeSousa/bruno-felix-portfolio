@@ -23,37 +23,37 @@
 /* Fonts */
 @font-face {
   font-family: "Fira Code Light";
-  src: url("../assets/fonts/fira-code/FiraCode-Light.ttf") format("truetype");
+  src: url("../fonts/fira-code/FiraCode-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code Regular";
-  src: url("../assets/fonts/fira-code/FiraCode-Regular.ttf") format("truetype");
+  src: url("../fonts/fira-code/FiraCode-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code Retina";
-  src: url("../assets/fonts/fira-code/FiraCode-Retina.ttf") format("truetype");
+  src: url("../fonts/fira-code/FiraCode-Retina.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code Medium";
-  src: url("../assets/fonts/fira-code/FiraCode-Medium.ttf") format("truetype");
+  src: url("../fonts/fira-code/FiraCode-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code SemiBold";
-  src: url("../assets/fonts/fira-code/FiraCode-SemiBold.ttf") format("truetype");
+  src: url("../fonts/fira-code/FiraCode-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code Bold";
-  src: url("../assets/fonts/fira-code/FiraCode-Bold.ttf") format("truetype");
+  src: url("../fonts/fira-code/FiraCode-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code Variable";
-  src: url("../assets/fonts/fira-code/FiraCode-Variable.ttf") format("truetype");
+  src: url("../fonts/fira-code/FiraCode-Variable.ttf") format("truetype");
 }
 
 /*=============== BASE ===============*/

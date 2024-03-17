@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  height: calc(100% - 90px);
+  overflow: hidden;
+}
+
+.perfil {
+  border: 1px solid red;
+}
+
+.images {
+  border: 1px solid green;
+}
+
+.perfil,
+.images {
+  flex: 1 1 auto; /* Distribui o espaço disponível igualmente entre as duas colunas */
+
+  /* margin: 100px; */
+}
