@@ -1,0 +1,132 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --primary-color-1: #01080e;
+  --primary-color-2: #011627;
+  --primary-color-3: #011221;
+
+  --sencondary-color-1: #607b96;
+  --sencondary-color-2: #3c9d93;
+  --sencondary-color-3: #4d5bce;
+  --sencondary-color-4: #ffffff;
+
+  --accent-color-1: #fea55f;
+  --accent-color-2: #43d9ad;
+  --accent-color-3: #e99287;
+  --accent-color-4: #c98bdf;
+
+  --line-color: #1e2d3d;
+
+  --gradiente-color-1: #4d5bce;
+  --gradiente-color-2: #43d9ad;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Fira Code Light";
+  src: url("../assets/fonts/fira-code/FiraCode-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Regular";
+  src: url("../assets/fonts/fira-code/FiraCode-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Retina";
+  src: url("../assets/fonts/fira-code/FiraCode-Retina.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Medium";
+  src: url("../assets/fonts/fira-code/FiraCode-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code SemiBold";
+  src: url("../assets/fonts/fira-code/FiraCode-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Bold";
+  src: url("../assets/fonts/fira-code/FiraCode-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Variable";
+  src: url("../assets/fonts/fira-code/FiraCode-Variable.ttf") format("truetype");
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 12 21 / var(--tw-bg-opacity));
+  width: auto;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+/* Borders */
+
+.border-top {
+  border-top: 1px solid var(--line-color);
+}
+
+.border-right {
+  border-right: 1px solid var(--line-color);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--line-color);
+}
+
+.border-left {
+  border-left: 1px solid var(--line-color);
+}
+
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  border-left: 1px solid var(--line-color);
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--sencondary-color-1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7b9bbb;
+}

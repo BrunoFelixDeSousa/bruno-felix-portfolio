@@ -1,0 +1,15 @@
+.box {
+  width: calc(
+    100% - 60px
+  ); /* 100% da largura da tela menos 30px de margem em cada lado */
+  height: calc(
+    100% - 60px
+  ); /* 100% da altura da tela menos 30px de margem em cima e em baixo */
+  margin: 30px; /* margem de 30px em todos os lados */
+
+  position: absolute; /* Define a posição absoluta para que a caixa fique posicionada relativa ao elemento body */
+
+  background-color: var(--primary-color-2);
+  border: 1px solid var(--line-color);
+  border-radius: 8px;
+}
