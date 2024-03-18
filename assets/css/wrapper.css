@@ -1,20 +1,121 @@
 .wrapper {
   display: flex;
+  width: 100%;
   height: calc(100% - 90px);
+  overflow: hidden;
+  justify-content: center;
+  margin: 0;
+}
+
+.wrapper .perfil,
+.wrapper .images {
+  flex: 1 1 auto;
+}
+
+.wrapper .perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 270px;
   overflow: hidden;
 }
 
-.perfil {
-  border: 1px solid red;
+.wrapper .perfil span {
+  font-size: 0.875rem;
+  line-height: 1;
+  color: var(--text-color);
+  font-family: "Fira Code Retina";
+  padding-bottom: 1rem;
+}
+
+.wrapper .perfil h1 {
+  font-size: 3.875rem;
+  color: var(--text-color);
+  font-family: "Fira Code Regular";
+  padding-top: 1rem; /* 16px */
+  padding-bottom: 1rem; /* 16px */
+  font-weight: 300;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper .perfil h2 {
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--gradiente-color-1);
+  font-family: "Fira Code Retina";
+  font-weight: 450;
+}
+
+.wrapper .perfil .head {
+  padding-bottom: 4rem;
+}
+
+.wrapper .perfil .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .perfil .info > span {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: var(--sencondary-color-1);
+  font-family: "Fira Code Retina";
+  font-weight: 450;
+  padding-bottom: 0.5rem;
+}
+
+.wrapper .perfil .info .code {
+  font-size: 0.875rem;
+  font-family: "Fira Code Medium";
+  color: var(--text-color);
+}
+.wrapper .perfil .info .code .identifier {
+  color: var(--gradiente-color-1);
+}
+
+.wrapper .perfil .info .code .variable-name {
+  color: var(--gradiente-color-2);
+}
+
+.wrapper .perfil .info .code .variable {
+  color: var(--accent-color-1);
+}
+
+.css-blurry-gradient-blue {
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  width: 300px;
+  height: 300px;
+  border-radius: 0% 0% 50% 50%;
+  rotate: 10deg;
+  filter: blur(70px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(77, 91, 206, 1),
+    rgba(76, 0, 255, 0)
+  );
+  opacity: 0.5;
+  z-index: 10;
+}
+
+.css-blurry-gradient-green {
+  position: absolute;
+  top: 20%;
+  right: 35%;
+  width: 300px;
+  height: 300px;
+  border-radius: 0% 50% 0% 50%;
+  filter: blur(70px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 217, 173, 1),
+    rgba(76, 0, 255, 0)
+  );
+  opacity: 0.5;
+  z-index: 10;
 }
 
 .images {
-  border: 1px solid green;
-}
-
-.perfil,
-.images {
-  flex: 1 1 auto; /* Distribui o espaço disponível igualmente entre as duas colunas */
-
-  /* margin: 100px; */
 }
