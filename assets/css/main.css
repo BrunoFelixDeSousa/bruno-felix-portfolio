@@ -2,14 +2,4 @@
 @import url(./box.css);
 @import url(./header.css);
 @import url(./wrapper.css);
-
-
-.footer {
-    height: 45px;
-    border: 1px solid red;
-
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
+@import url(./footer.css);
