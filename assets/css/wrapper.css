@@ -80,6 +80,8 @@
 
 .wrapper .perfil .info .code .variable {
   color: var(--accent-color-1);
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
 }
 
 .css-blurry-gradient-blue {
