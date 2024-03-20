@@ -14,6 +14,9 @@ Aqui está uma captura de tela do projeto:
 
 ![alt text](public/images/demo.png)
 
+## GitHub Pages
+
+O projeto foi implementado e pode ser visualizado no GitHub Pages. [Link do Projeto](https://brunofelixdesousa.github.io/bruno-felix-portfolio/)
 
 ## Tecnologias Utilizadas
 
